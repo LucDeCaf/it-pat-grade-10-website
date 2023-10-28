@@ -9,6 +9,13 @@ export default function Root() {
       <Navbar expand='lg' className='bg-body-tertiary shadow'>
         <Container>
           <Navbar.Brand as={Link} to='/'>
+            <img
+              alt=""
+              src="/logo.svg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
             Flashcard City
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbarNav' />
