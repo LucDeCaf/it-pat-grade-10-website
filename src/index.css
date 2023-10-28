@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes drop-in {
+  from {
+    transform: translateY(-14rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+nav {
+  z-index: 99;
+}
