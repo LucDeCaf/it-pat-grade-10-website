@@ -27,8 +27,8 @@ export default function Home() {
           <Button onClick={() => handleClick('/download')}>Download Now</Button>
         </Col>
         <Col>
-          <Button variant='secondary' onClick={() => handleClick('/docs')}>
-            Documentation
+          <Button variant='secondary' onClick={() => handleClick('/getting-started')}>
+            Get Started
           </Button>
         </Col>
       </Row>
