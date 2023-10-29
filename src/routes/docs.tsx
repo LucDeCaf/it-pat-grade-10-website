@@ -224,7 +224,7 @@ export default function Docs() {
         />
         <p>
           If you've looked carefully at the example terms I've added, you may be
-          wondering, "What kind of maths class is teaches people about cells?
+          wondering, "What kind of maths class teaches people about cells?
           Isn't that a part of biology?"
         </p>
         <p>And you'd be right. That isn't a mathematical term. My mistake!</p>
