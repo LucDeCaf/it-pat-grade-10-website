@@ -30,10 +30,8 @@ export default function Root() {
               <Nav.Link as={Link} to='/download'>
                 Download
               </Nav.Link>
-            </Nav>
-            <Nav>
-              <Nav.Link as={Link} to='/docs'>
-                Docs
+              <Nav.Link as={Link} to='/getting-started'>
+                Getting Started
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

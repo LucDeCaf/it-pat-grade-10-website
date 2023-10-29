@@ -32,7 +32,7 @@ const router = createBrowserRouter([
         element: <Download />,
       },
       {
-        path: '/docs',
+        path: '/getting-started',
         element: <Docs />,
       },
     ],
