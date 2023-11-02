@@ -16,7 +16,7 @@ export default function Download() {
       <br />
       <h5>Download Any Version</h5>
       <ul>
-      <li><strong>V 1.0.1:</strong> <a href="/flashcard-city-v1.0.1.zip" download>flashcard-city-v1.0</a></li>
+      <li><strong>V 1.0.1:</strong> <a href="/flashcard-city-v1.0.1.zip" download>flashcard-city-v1.0.1</a></li>
         <li><strong>V 1.0:</strong> <a href="/flashcard-city-v1.0.zip" download>flashcard-city-v1.0</a></li>
       </ul>
     </Container>
