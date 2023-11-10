@@ -100,10 +100,10 @@ export default function Docs() {
         </p>
         <p>
           <b>Note:</b> You may run into an issue where your computer tries to
-          warn you that the program is from an unverified developer &#40;rude&#41;. if
-          that is the case, simply click <i>'See more...'</i> and{' '}
-          <i>'Run anyway'</i> to continue running the program - I promise it's
-          not a virus. ;&#41;
+          warn you that the program is from an unverified developer
+          &#40;rude&#41;. if that is the case, simply click <i>'See more...'</i>{' '}
+          and <i>'Run anyway'</i> to continue running the program - I promise
+          it's not a virus. ;&#41;
         </p>
         <br />
         <p>
@@ -145,7 +145,8 @@ export default function Docs() {
         <p>
           Let's start by giving your flashcard set a name. You can use any name
           you want, but for the purposes of this demonstration, we'll be using
-          the name <i>"Math Terms"</i> in this example &#40;very creative, I know&#41;.
+          the name <i>"Math Terms"</i> in this example &#40;very creative, I
+          know&#41;.
         </p>
         <p>
           To give your set a name, type it into the box labelled{' '}
@@ -192,8 +193,8 @@ export default function Docs() {
           may have noticed that I made a mistake when writing the definition.
         </p>
         <p>
-          Indeed, <i>sin&#40;x&#41;</i> is not equal to <i>x/r</i>, but <i>y/r</i>.
-          Oops!
+          Indeed, <i>sin&#40;x&#41;</i> is not equal to <i>x/r</i>, but{' '}
+          <i>y/r</i>. Oops!
         </p>
         <p>Luckily, we can simply change the term's definition.</p>
         <p>
@@ -288,18 +289,19 @@ export default function Docs() {
           <br />
           To do this, type the name of the flashcard set into the dropdown box
           near the top of the screen. <br />
-          Then, press the <strong>"Load"</strong> button.
+          Then, press the <strong>Load</strong> button.
         </p>
         <img src='/images/study-load.png' alt='Study page' loading='lazy' />
         <br />
         <br />
         <p>
-          And just like that, the set is loaded. Magic! <i>&#40;Not really.&#41;</i>
+          And just like that, the set is loaded. Magic!{' '}
+          <i>&#40;Not really.&#41;</i>
         </p>
         <p>
           Once you think you remember the term's definition, click the term to
           flip the flashcard and reveal the definition. <br />
-          If you got it, press the <strong>"Yes"</strong> button.
+          If you got it, press the <strong>Yes</strong> button.
         </p>
         <img
           src='/images/study-hover-yes.png'
@@ -309,7 +311,7 @@ export default function Docs() {
         <br />
         <br />
         <p>
-          Else, press the <strong>"No"</strong> button.
+          Else, press the <strong>No</strong> button.
         </p>
         <img
           src='/images/study-hover-no.png'
@@ -342,7 +344,33 @@ export default function Docs() {
         Part 4: <span className='fw-normal'>Deleting Your First Set</span>
       </h3>
       <div id='deleting-contents'>
-        <i>Working on it...</i>
+        <p>Okay, I'll keep this short, don't worry. :&#41;</p>
+        <p>
+          To delete a set, simply enter the add page and enter the set's name
+          into the <strong>"Enter a set name"</strong> field. <br />
+          You should see a small piece of text that says{' '}
+          <i>"Existing set found"</i> underneath the text box.
+        </p>
+        <p>
+          From there, simply press the <strong>Load</strong> button to edit the
+          set post-creation or press the <strong>Save All</strong> button while
+          the <strong>"Terms"</strong> box is empty to delete the set.
+        </p>
+      </div>
+      <br />
+      <div>
+        <p>
+          And that's it! I hope you enjoy using Flashcard City, and have fun
+          learning! ^u^
+        </p>
+        <p>
+          <i>
+            PS: If your edition of Flashcard City doesn't quite look like the
+            version used in this tutorial, it's because this tutorial uses an
+            older version. However, everything I just said should still apply
+            :&#41;
+          </i>
+        </p>
       </div>
     </Container>
   );
