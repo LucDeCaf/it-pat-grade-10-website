@@ -59,7 +59,7 @@ export default function Docs() {
       <div id='installing-contents'>
         <p>
           The first step in using Flashcard City is installing Flashcard City
-          (duh). To do so, either go to the{' '}
+          &#40;duh&#41;. To do so, either go to the{' '}
           <Link to='/downloads'>downloads page</Link>, or, if you're lazy, click
           the following link to{' '}
           <a href={`/${latestVersion}.zip`}>
@@ -73,7 +73,7 @@ export default function Docs() {
         <p>
           Also, if you're not using{' '}
           <span className='text-decoration-underline'>Windows</span>, tough
-          luck. &ensp;¯\_(ツ)_/¯
+          luck. &ensp;¯\_&#40;ツ&#41;_/¯
         </p>
         <br />
         <p>The file should look something like this:</p>
@@ -100,7 +100,7 @@ export default function Docs() {
         </p>
         <p>
           <b>Note:</b> You may run into an issue where your computer tries to
-          warn you that the program is from an unverified developer (rude). if
+          warn you that the program is from an unverified developer &#40;rude&#41;. if
           that is the case, simply click <i>'See more...'</i> and{' '}
           <i>'Run anyway'</i> to continue running the program - I promise it's
           not a virus. ;&#41;
@@ -145,7 +145,7 @@ export default function Docs() {
         <p>
           Let's start by giving your flashcard set a name. You can use any name
           you want, but for the purposes of this demonstration, we'll be using
-          the name <i>"Math Terms"</i> in this example (very creative, I know).
+          the name <i>"Math Terms"</i> in this example &#40;very creative, I know&#41;.
         </p>
         <p>
           To give your set a name, type it into the box labelled{' '}
@@ -192,7 +192,7 @@ export default function Docs() {
           may have noticed that I made a mistake when writing the definition.
         </p>
         <p>
-          Indeed, <i>sin(x)</i> is not equal to <i>x/r</i>, but <i>y/r</i>.
+          Indeed, <i>sin&#40;x&#41;</i> is not equal to <i>x/r</i>, but <i>y/r</i>.
           Oops!
         </p>
         <p>Luckily, we can simply change the term's definition.</p>
@@ -224,8 +224,8 @@ export default function Docs() {
         />
         <p>
           If you've looked carefully at the example terms I've added, you may be
-          wondering, "What kind of maths class teaches people about cells?
-          Isn't that a part of biology?"
+          wondering, "What kind of maths class teaches people about cells? Isn't
+          that a part of biology?"
         </p>
         <p>And you'd be right. That isn't a mathematical term. My mistake!</p>
         <p>It appears we need to delete the extra term I've added.</p>
@@ -277,7 +277,65 @@ export default function Docs() {
         Part 3: <span className='fw-normal'>Studying Your First Set</span>
       </h3>
       <div id='studying-contents'>
-        <i>Working on it...</i>
+        <p>And finally, we get to the actual studying. :&#41;</p>
+        <p>
+          Let's start by clicking on the <strong>"Study"</strong> button.
+        </p>
+        <img src='/images/study.png' alt='Study page' loading='lazy' />
+        <p>
+          To study a flashcard set, we first have to load a flashcard set we've
+          already made.
+          <br />
+          To do this, type the name of the flashcard set into the dropdown box
+          near the top of the screen. <br />
+          Then, press the <strong>"Load"</strong> button.
+        </p>
+        <img src='/images/study-load.png' alt='Study page' loading='lazy' />
+        <br />
+        <br />
+        <p>
+          And just like that, the set is loaded. Magic! <i>&#40;Not really.&#41;</i>
+        </p>
+        <p>
+          Once you think you remember the term's definition, click the term to
+          flip the flashcard and reveal the definition. <br />
+          If you got it, press the <strong>"Yes"</strong> button.
+        </p>
+        <img
+          src='/images/study-hover-yes.png'
+          alt='Study page with mouse on "yes" button'
+          loading='lazy'
+        />
+        <br />
+        <br />
+        <p>
+          Else, press the <strong>"No"</strong> button.
+        </p>
+        <img
+          src='/images/study-hover-no.png'
+          alt='Study page with mouse on "no" button.'
+          loading='lazy'
+        />
+        <p>
+          Once you've gotten through all the flashcards, Flashcard City will
+          show you all the terms you didn't remember again. This cycle continues
+          until either you get all the terms or you give up.
+        </p>
+        <p>
+          Once you've gotten all the terms in a set, a message will pop up
+          informing you of your greatness. 8&#41;
+        </p>
+        <img
+          src='/images/study-success.png'
+          alt='Study page with congratulatory message'
+          loading='lazy'
+        />
+        <br />
+        <br />
+        <p>
+          That's how easy it is to study with Flashcard City! Now let's do some
+          clean-up.
+        </p>
       </div>
       <br />
       <h3 id='deleting'>
